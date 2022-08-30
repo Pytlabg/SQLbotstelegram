@@ -24,11 +24,4 @@ def start (message):
     else:
         bot.send_message(message.chat.id, 'Такой пользователь уже существует')
 @bot.message_handler(commands=['delete'])
-def delete (message):
-    pass
-
-
-
-
-
 bot.infinity_polling()
